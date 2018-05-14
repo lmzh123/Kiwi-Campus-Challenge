@@ -8,8 +8,9 @@ The configuration file and map are defined and the simulator is launched using t
 rosrun stage_ros stageros ra1.cfg
 ```
 
-A bag file called Task2_1.bag is created storing all topics.
+![](Task2_2_stage.png)
 
+A bag file called Task2_1.bag is created storing all topics.
 
 ```
 rosbag record -a
@@ -19,8 +20,6 @@ rosbag record -a
 
 ## Task 2.2
 The simulated robot can be controlled using the script teleop_twist_keyboard.py from the teleop_twist_keyboard package.
-
-![](Task2_2_stage.png)
 
 ```
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
