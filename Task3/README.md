@@ -11,7 +11,7 @@ roslaunch turtlebot_teleop keyboard_teleop.launch
 
 ![](Task3_1.png)
 
-A bag file called Task3_1.bag is created storing just the topics associated with the motion since the images from the camara an other sensors create too much information that is not necessary at this point, but all the topics can be seen in the following image.
+A bag file called Task3_1.bag is created storing just the topics associated with the motion since the images from the camara and other sensors create too much information that is not necessary at this point, but all the topics can be seen in the following image.
 
 ![](Task3_1_all_topics.png)
 
