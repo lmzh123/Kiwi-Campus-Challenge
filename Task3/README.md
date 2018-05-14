@@ -9,7 +9,7 @@ roslaunch turtlebot_gazebo turtlebot_world.launch
 roslaunch turtlebot_teleop keyboard_teleop.launch
 ```
 
-![](Task3_1.png)
+![](Task3_1.png =300x)
 
 A bag file called Task3_1.bag is created storing just the topics associated with the motion since the images from the camara and other sensors create too much information that is not necessary at this point, but all the topics can be seen in the following image.
 
@@ -20,7 +20,7 @@ The Real Time Factor is the ratio that tells me how close is my simulation to ru
 
 ## Task 3.3
 
-A catkin package named location_monitor is created subscribe to the Odometry information and publish to a topic named location_monitor_log when the turtlebot is within the defined circles. The script can be found in this folder as location_monitor_node.py.
+A catkin package named location_monitor is created to subscribe to the Odometry information and publish to a topic named location_monitor_log when the turtlebot is within the defined circles. The script can be found in this folder as location_monitor_node.py.
 
 ![](Task3_3_log.png)
 
