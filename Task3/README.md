@@ -20,8 +20,20 @@ The Real Time Factor is the ratio that tells me how close is my simulation to ru
 
 ## Task 3.3
 
-A catkin package named location_monitor is created subscribe to the Odometry information and publish to a topic named location_monitor_log when the turtlebot is within the defined circles. The script can be found in this folder as location_monitor_node.py
+A catkin package named location_monitor is created subscribe to the Odometry information and publish to a topic named location_monitor_log when the turtlebot is within the defined circles. The script can be found in this folder as location_monitor_node.py.
 
 ![](Task3_3_log.png)
 
 The bag file Task3_3.bag is created only with the topics related to the motion and the location_monitor_log topic to check out the log.
+
+## Task 3.4
+SLAM is performed using the gmaping tool and is visualized using RVIZ.
+
+```
+roslaunch turtlebot_gazebo gmapping_demo.launch
+roslaunch turtlebot_rviz_launchers view_navigation.launch
+```
+
+The mapping can be reproduced using the bag file Task3_4.bag and looks as follows.
+
+![](Task3_4.png)
