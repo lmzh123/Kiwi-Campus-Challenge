@@ -1,0 +1,1 @@
+Real Time Factor is the ratio that tells me how close is my simulation to run in real time. A RTF of 1.0 indicates that the simulation is in deed running in real time. 
